@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JaguarScript - Creative Agency Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-white display-4"><span class="text-primary">J</span>aguar<span class="text-primary">S</span>cript</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Sobre Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link active">Servicios</a>
+                        <a href="pricing.html" class="nav-item nav-link">Costos</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Más Información</a>
+                            <div class="dropdown-menu border-0 rounded-0 m-0">
+                                <a href="blog.html" class="dropdown-item">Experiencia</a>
+                                <a href="single.html" class="dropdown-item">Detalles</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5 mb-5">
+        <h1 class="display-4 text-white mb-3 mt-0 mt-lg-5">Contacto
+        </h1>
+        <div class="d-inline-flex text-white">
+            <p class="m-0"><a class="text-white" href="index.html">Inicio</a></p>
+            <p class="m-0 px-2">/</p>
+            <p class="m-0">Contacto</p>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="text-center">
+                <small class="bg-primary text-white text-uppercase font-weight-bold text-center px-1">Contáctanos</small>
+                <h1 class="mt-2 mb-5">Solicita un Paquete Personalizado</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="d-flex align-items-center border mb-3 p-4">
+                        <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Nuestra Ubicación</h5>
+                            <p class="m-0">Chilpancingo, Guerrero, México</p>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex align-items-center border mb-3 mb-md-0 p-4">
+                        <i class="fas fa-2x fa-phone-alt text-primary mr-3"></i>
+                        <div class="d-flex flex-column">
+                            <h5 class="font-weight-bold">Teléfono</h5>
+                            <p class="m-0">+52 7471843126</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <div id="success"></div>
+                        <form id="whatsappForm" class="needs-validation" novalidate>
+                            <div class="form-row">
+                                <div class="col-md-6">
+                                    <div class="control-group">
+                                        <input type="text" class="form-control p-4" id="name" placeholder="Tu Nombre" required data-validation-required-message="Por favor, ingresa tu nombre" />
+                                        <p class="help-block text-danger"></p>
+                                        <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="control-group">
+                                        <input type="tel" class="form-control p-4" id="phone" placeholder="Tu Teléfono" required pattern="[0-9]{10}" data-validation-required-message="Por favor, ingresa tu teléfono" />
+                                        <p class="help-block text-danger"></p>
+                                        <div class="invalid-feedback">Ingresa un teléfono válido (10 dígitos).</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <select class="form-control p-4" id="service" required data-validation-required-message="Por favor, selecciona un servicio">
+                                    <option value="">¿Qué necesitas?</option>
+                                    <option value="Página Web Informativa ($1,000 MXN)">Página Web Informativa ($1,000 MXN)</option>
+                                    <option value="Sistema con Agendas/Registros ($5,000 MXN)">Sistema con Agendas/Registros ($5,000 MXN)</option>
+                                    <option value="Paquete Personalizado">Paquete Personalizado</option>
+                                </select>
+                                <p class="help-block text-danger"></p>
+                                <div class="invalid-feedback">Selecciona un servicio.</div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="business" placeholder="Nombre del Negocio (Opcional)" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" rows="5" id="details" placeholder="Describe tu proyecto o necesidades específicas" required data-validation-required-message="Por favor, describe tu proyecto"></textarea>
+                                <p class="help-block text-danger"></p>
+                                <div class="invalid-feedback">Por favor, describe tu proyecto.</div>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-semi-bold px-4" style="height: 50px;" type="submit" id="sendMessageButton">Enviar a WhatsApp</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/favicon.png" alt="JaguarScript Logo" style="width: 300px; height: 300px;" class="mr-2">
+                </a>
+                <p>Somos estudiantes del TecNM Chilpancingo ofreciendo soluciones web asequibles, desde páginas informativas ($1,000 MXN) hasta sistemas con agendas ($5,000 MXN) para negocios locales.</p>
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0" style="width: 38px; height: 38px;" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Enlaces Rápidos</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="index.html"><i class="fa fa-angle-right text-primary mr-2"></i>Inicio</a>
+                    <a class="text-white mb-2" href="about.html"><i class="fa fa-angle-right text-primary mr-2"></i>Quiénes Somos</a>
+                    <a class="text-white mb-2" href="service.html"><i class="fa fa-angle-right text-primary mr-2"></i>Servicios</a>
+                    <a class="text-white mb-2" href="pricing.html"><i class="fa fa-angle-right text-primary mr-2"></i>Precios</a>
+                    <a class="text-white" href="contact.html"><i class="fa fa-angle-right text-primary mr-2"></i>Contacto</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Enlaces Populares</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white mb-2" href="https://cat-itchilpancingo.com/oferta_educativa.html" target="_blank"><i class="fa fa-angle-right text-primary mr-2"></i>Proyectos TecNM</a>
+                    <a class="text-white mb-2" href="#contact-form"><i class="fa fa-angle-right text-primary mr-2"></i>Contáctanos</a>
+                    <a class="text-white mb-2" href="blog.html"><i class="fa fa-angle-right text-primary mr-2"></i>Experiencia</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="font-weight-bold text-primary mb-4">Contáctanos</h5>
+                <p>Estamos aquí para ayudarte a digitalizar tu negocio en Chilpancingo y alrededores.</p>
+                <p><i class="fa fa-map-marker-alt text-primary mr-2"></i>Chilpancingo, Guerrero, México</p>
+                <p><i class="fa fa-phone-alt text-primary mr-2"></i>+52 747 184 3126</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-4 px-sm-3 px-md-5">
+        <p class="m-0 text-center">
+            © 2025 <a class="font-weight-semi-bold" href="#">JaguarScript</a>. Todos los derechos reservados. Desarrollado por el equipo JaguarScript.
+        </p>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!-- Custom WhatsApp Script -->
+    <script>
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                var form = document.getElementById('whatsappForm');
+                form.addEventListener('submit', function(event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+
+                    if (form.checkValidity() === false) {
+                        form.classList.add('was-validated');
+                        return;
+                    }
+
+                    var name = document.getElementById('name').value;
+                    var phone = document.getElementById('phone').value;
+                    var service = document.getElementById('service').value;
+                    var business = document.getElementById('business').value || 'No especificado';
+                    var details = document.getElementById('details').value;
+                    var whatsappNumber = '+527471843126'; // Reemplaza con tu número de WhatsApp con código de país (ej. +52 para México)
+
+                    var message = `¡Hola! Soy ${name} y mi teléfono es ${phone}. Estoy interesado en: ${service}. Negocio: ${business}. Detalles: ${details}`;
+                    var whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+                    window.open(whatsappURL, '_blank');
+                    form.reset();
+                    form.classList.remove('was-validated');
+                }, false);
+            }, false);
+        })();
+    </script>
+</body>
+
+</html>
